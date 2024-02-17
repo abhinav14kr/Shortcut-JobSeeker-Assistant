@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    /* height: 40vmin; */
+    pointer-events: none;
+    width: 256px;
+    height: 56px;
+    top: 31px;
+    left: 29px;
+
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #323232;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu.active {
+    font: Roboto;
+    background-color: #333;
+    padding-left: 20px;
+    z-index: 2000;
+  }
+  
+  .menu nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .menu nav ul li {
+    margin-right: 20px;
+  }
+  
+  .menu nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .menu nav ul li.active a {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00; /* Add a border-bottom for the selected button */
+  }
+  
+  .menu .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  main {
+    padding-top: 20px; /* Adjust padding to account for the fixed menu bar */
+  }
+  
+
+  /* Updated styles for each section */
+  section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-row {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .text {
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 40px;
+  }
+  
+  .text h2 {
+    font-size: 60px;
+    text-align: left;
+    
+  }
+  
+  .bold-text {
+    font-family: 'Santoshi';
+    font-weight: bold;
+    
+  }
+  
+  .normal-text{
+    font-family: 'Santoshi';
+    font-weight: normal;
+    font-size: 28px;
+    text-align: left;
+    margin-left: 40px;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .centered-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px; 
+    padding-top: 27%;
+    /* Set a max-height for the image box */
+  }
+
+  .resume-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: auto;
+    padding-top: 3%
+  }
+  
+  .top-section,
+  .bottom-section {
+    display: flex;
+    width: 95vw;
+    height: 95vh;
+  }
+  
+  .left-block,
+  .right-block {
+    flex: 1;
+    padding: 20px;/* Center text in both left and right blocks */
+  }
+  .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .centered-image-doc {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px; 
+  }
+  .centered-image-text-left {
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    padding-top: 40px;
+    /* Set a max-height for the image box */
+  }
+  .centered-image-text-right {
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding-top: 40px;
+    /* Set a max-height for the image box */
+  }
+  .bold-text {
+    font-family: 'Santoshi', sans-serif;
+    font-weight: bold;
+  }
+  .tools-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .video-container {
+    margin-top: 20px;
+  }
+  
+  .description {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .big-font {
+    font-family: satoshi;
+    font-size: 50px;
+  }
+
+  .medium-font {
+    font-family: satoshi;
+    font-size: 20px;
+  }
+
+  .body-style {
+    background-color: #dbcfcf;
+  }
+
+  .prep-image-background {
+    width: 200px;
+    height: 200px;
+    background-color: #D9D9D9;
+  }
+  
+  
+  
+  /* Add styles for each section as needed */
+  
