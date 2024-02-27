@@ -1,7 +1,6 @@
 Website: https://shortcutstudent.netlify.app/
 
 
-https://github.com/abhinav14kr/Student_Shorcut_App/assets/139970672/7927d216-7a51-4663-9a0c-990cf7f714a9
 
 
 
