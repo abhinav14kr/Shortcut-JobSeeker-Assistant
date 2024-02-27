@@ -1,4 +1,10 @@
-Website: https://shortcutstudent.netlify.app/
+                                                                    https://shortcutstudent.netlify.app/
+
+
+
+
+https://github.com/abhinav14kr/Student_Shorcut_App/assets/139970672/2838ff2d-f5c1-4542-ad6a-bf9fff5a39a5
+
 
 
 
@@ -69,8 +75,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: [https://facebook.github.io/create-react-
+app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
